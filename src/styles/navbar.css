@@ -1,0 +1,16 @@
+.nav_content {
+ width: 60%;
+ height: 5vh;
+ background-color: #FE93FF;
+ box-shadow: 10px 15px 5px #888888;
+}
+
+.nav_content ul {
+ list-style-type: none;
+ display: flex;
+ flex-direction: row;
+}
+
+.nav_content ul li{
+ padding-left: 10px;
+}
