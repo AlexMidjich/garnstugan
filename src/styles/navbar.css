@@ -1,14 +1,17 @@
 .nav_content {
  width: 60%;
  height: 5vh;
- background-color: #FE93FF;
- box-shadow: 10px 15px 5px #888888;
+ background-color: #FFB5D6;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 .nav_content ul {
  list-style-type: none;
  display: flex;
  flex-direction: row;
+ margin: 0px;
 }
 
 .nav_content ul li{

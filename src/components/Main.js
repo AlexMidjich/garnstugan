@@ -4,9 +4,9 @@ import '../styles/main.css';
 class Main extends Component {
  render(){
   return(
-   <div className="main_content">
+   <section className="main_content">
     <p>Textcontent</p>
-   </div>
+   </section>
   );
  }
 }
