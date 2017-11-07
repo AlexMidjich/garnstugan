@@ -1,9 +1,14 @@
+/***************************
+  COLORS
+****************************/
+/***************************
+  SHADOW
+****************************/
 .header {
- width: 60%;
- height: 10vh;
- background-color: #FE93FF;
- box-shadow: 10px 15px 5px #888888;
- display: flex;
- justify-content: center;
- align-items: center;
-}
+  width: 60%;
+  height: 15vh;
+  background-color: #FE93FF;
+  box-shadow: 10px 0px 0px #888888;
+  display: flex;
+  justify-content: center;
+  align-items: center; }

@@ -1,16 +1,24 @@
+/***************************
+  COLORS
+****************************/
+/***************************
+  SHADOW
+****************************/
 .nav_content {
- width: 60%;
- height: 5vh;
- background-color: #FE93FF;
- box-shadow: 10px 15px 5px #888888;
-}
+  width: 60%;
+  background-color: #FE93FF;
+  box-shadow: 10px 0px 0px #888888; }
+  .nav_content ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0; }
+    .nav_content ul li {
+      padding-left: 10px;
+      padding: 20px; }
 
-.nav_content ul {
- list-style-type: none;
- display: flex;
- flex-direction: row;
-}
-
-.nav_content ul li{
- padding-left: 10px;
-}
+a {
+  color: white;
+  text-decoration: none; }
+  a:hover {
+    color: black; }

@@ -1,0 +1,25 @@
+@import "_variables";
+
+.nav_content {
+ width: $inner_conatiner_width;
+ background-color: $main_bg;
+ box-shadow: $shadow;
+ ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  li {
+    padding-left: 10px;
+    padding: 20px;
+  }
+ }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  &:hover{
+    color: black;
+  }
+}

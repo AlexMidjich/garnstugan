@@ -1,39 +1,24 @@
+/***************************
+  COLORS
+****************************/
+/***************************
+  SHADOW
+****************************/
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-}
+  font-family: sans-serif; }
 
-.content{
- background-color: #FFB5D6;
- width: 100%;
- height: 100vh;
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column;
-}
-
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
+.content {
+  background-color: #FFB5D6;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }

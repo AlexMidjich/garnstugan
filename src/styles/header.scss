@@ -1,0 +1,11 @@
+@import "_variables";
+
+.header {
+ width: $inner_conatiner_width;
+ height: 15vh;
+ background-color: $main_bg;
+ box-shadow: $shadow;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
